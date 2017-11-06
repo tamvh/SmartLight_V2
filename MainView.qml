@@ -630,17 +630,17 @@ Rectangle {
                         anchors.fill: parent
                         onClicked: {
                             stackView.push(idGridViewInQML)
-                            if( (mainController.getConfigAllowLightControl() === true) || (iControlEnable === 1) )
-                            {
-                                mainController.callGetRemoteList()
-                                iPageLightShow = 1;
-                                stackView.push(idPageRemoteCtrller)
-                            }
-                            else
-                            {
-                                iTimeoutType = 0;
-                                dialogAlert.open();
-                            }
+//                            if( (mainController.getConfigAllowLightControl() === true) || (iControlEnable === 1) )
+//                            {
+//                                mainController.callGetRemoteList()
+//                                iPageLightShow = 1;
+//                                stackView.push(idPageRemoteCtrller)
+//                            }
+//                            else
+//                            {
+//                                iTimeoutType = 0;
+//                                dialogAlert.open();
+//                            }
                         }
                     }
 

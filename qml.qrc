@@ -61,5 +61,6 @@
         <file>image/slidebar-light.svg</file>
         <file>LightHubOnArea.qml</file>
         <file>GridViewInQML.qml</file>
+        <file>AccItem.qml</file>
     </qresource>
 </RCC>
